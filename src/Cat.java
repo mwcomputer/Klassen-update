@@ -11,16 +11,36 @@ public class Cat
         this.age = age;
     }
 
-    public void tellYourName() {
-        System.out.println(this.name);
-    }
-
-    public void tellYourFurColor() {
+public void tellYourAttributes(String checkStr){
+switch (checkStr) {
+    case "#name":
+    System.out.println(this.name);
+   
+        break;
+        case "#color":
         System.out.println(this.furColor);
-    }
 
-    public void tellYourAge() {
-        System.out.println(this.age);
-    }
+        break;
+        case "#age":
+    System.out.println(this.age);
+    default:
+    System.out.println("ERROR");
+        break;
+}
+
+}
+
+
+  //  public void tellYourName() {
+     //   System.out.println(this.name);
+  //  }
+
+  //  public void tellYourFurColor() {
+  //      System.out.println(this.furColor);
+  //  }
+
+   // public void tellYourAge() {
+   //     System.out.println(this.age);
+    //}
     
 }
