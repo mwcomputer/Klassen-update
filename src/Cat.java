@@ -15,6 +15,12 @@ public class Cat
         System.out.println(this.name);
     }
 
-   
+    public void tellYourFurColor() {
+        System.out.println(this.furColor);
+    }
+
+    public void tellYourAge() {
+        System.out.println(this.age);
+    }
     
 }
