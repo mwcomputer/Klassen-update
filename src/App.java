@@ -2,19 +2,14 @@ public class App {
     
     public static void main(String[] args) {
            
-        Cat cat1 = new Cat();
-        System.out.println("Blick von aussen: " + cat1);
-        cat1.changeYourName("Grizabella");
-        cat1.tellYourAddress();
+        Cat cat1 = new Cat("Grizabella", "white", 29);
         cat1.tellYourName();
+    
 
         
-        System.out.println("-----------------");
+        // System.out.println("-----------------");
         
-        Cat cat2 = new Cat();
-        System.out.println("Blick von aussen: " + cat2);
-        cat2.changeYourName("Alonzo");
-        cat2.tellYourAddress();
+        Cat cat2 = new Cat("Alonzo", "black", 35);
         cat2.tellYourName();
 
     }
